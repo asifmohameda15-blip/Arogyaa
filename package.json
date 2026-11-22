@@ -1,0 +1,10 @@
+{
+  "name": "arogyaa-medtech-app",
+  "version": "1.0.0",
+  "description": "Arogyaa - Med-Tech Accessible Healthcare Web Application for Everyone",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev"
+  }
+}
